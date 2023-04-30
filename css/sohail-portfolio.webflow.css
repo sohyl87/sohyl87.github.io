@@ -864,7 +864,7 @@ figcaption {
 }
 
 .text-size-large {
-  font-size: 1.5rem;
+  font-size: 1.875rem;
 }
 
 .fs-styleguide_header {
@@ -1138,13 +1138,6 @@ figcaption {
   padding: .5rem 1.25rem;
 }
 
-.contacts_c {
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-  justify-content: center;
-  display: flex;
-}
-
 .project_info {
   padding: 2rem 1rem;
 }
@@ -1156,19 +1149,6 @@ figcaption {
   align-items: center;
   text-decoration: none;
   display: flex;
-}
-
-.text-size-large-2 {
-  font-size: 1.875rem;
-}
-
-.heading-style-h1-2 {
-  color: #f90;
-  letter-spacing: .75rem;
-  text-transform: uppercase;
-  font-size: 6.25rem;
-  font-weight: 700;
-  line-height: 1.1;
 }
 
 .intro_content {
@@ -1220,6 +1200,38 @@ figcaption {
   background-color: #dadada;
   border-radius: 20px;
   overflow: hidden;
+}
+
+.contacts_c {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+.text-size-large-3 {
+  font-size: 1.875rem;
+}
+
+.heading-style-h1-3 {
+  color: #f90;
+  letter-spacing: .75rem;
+  text-transform: uppercase;
+  font-size: 6.25rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.page-wrapper {
+  color: #fff;
+  background-color: #000;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.section_contact {
+  padding-bottom: 8rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -1649,16 +1661,20 @@ figcaption {
     font-size: 6rem;
   }
 
-  .text-size-large-2 {
+  .projects_c {
+    grid-template-columns: 1fr;
+  }
+
+  .text-size-large-3 {
     font-size: 1.25rem;
   }
 
-  .heading-style-h1-2 {
+  .heading-style-h1-3 {
     font-size: 2.5rem;
   }
 
-  .projects_c {
-    grid-template-columns: 1fr;
+  .section_contact {
+    padding-bottom: 16rem;
   }
 }
 
@@ -1742,6 +1758,15 @@ figcaption {
 
   .section-header_title {
     font-size: 4rem;
+  }
+
+  .contacts_c {
+    flex-direction: column;
+  }
+
+  .heading-style-h1-3 {
+    align-self: flex-start;
+    font-size: 2.125rem;
   }
 }
 
