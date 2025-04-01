@@ -1733,7 +1733,7 @@ figcaption {
 }
 
 .navbar_component.show {
-  background-color: #fff;
+  background-color: #f7f7f7;
   box-shadow: 0 0 10px #0000001a;
 }
 
@@ -1832,8 +1832,9 @@ figcaption {
 
 .section_intro {
   color: var(--color-scheme-1--text);
-  background-image: linear-gradient(#f7f7f780, #f7f7f780);
+  background-image: radial-gradient(circle, #fff, #f7f7f7);
   height: 100svh;
+  overflow: hidden;
 }
 
 .intro_component {
@@ -1906,8 +1907,8 @@ figcaption {
 }
 
 .down-arrow {
-  border-bottom: 3px solid #4d85ff;
-  border-left: 3px solid #4d85ff;
+  border-bottom: 3px solid #000;
+  border-left: 3px solid #000;
   width: 2rem;
   height: 2rem;
   transform: rotate(-45deg);
@@ -2068,7 +2069,7 @@ figcaption {
   justify-content: center;
   align-items: center;
   padding-bottom: 0;
-  display: flex;
+  display: none;
   position: fixed;
   inset: 0%;
 }
